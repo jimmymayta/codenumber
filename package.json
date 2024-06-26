@@ -1,0 +1,21 @@
+{
+  "name": "codenumber",
+  "version": "1.1.4",
+  "description": "codenumber",
+  "main": "dist/code.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node dist/code.js",
+    "dev": "nodemon dist/code.js",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "code",
+    "number",
+    "codenumber",
+    "code generate"
+  ],
+  "author": "jimmy mayta, jimmyymaytaj@gmail.com",
+  "license": "ISC"
+}
