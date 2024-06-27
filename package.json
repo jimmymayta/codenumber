@@ -1,6 +1,6 @@
 {
   "name": "codenumber",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/jimmymayta/codenumber"
@@ -16,11 +16,13 @@
     "test": "node dist/test.js"
   },
   "keywords": [
+    "id",
+    "id generate",
     "code",
     "number",
     "codenumber",
     "code generate"
   ],
-  "author": "jimmy mayta, jimmyymaytaj@gmail.com",
+  "author": "jimmymayta",
   "license": "ISC"
 }

@@ -1,7 +1,9 @@
 # CODENUMBER
 
+
+
 ## Descripción:
-codenumber es una librería sencilla y eficiente diseñada para generar identificadores únicos compuestos únicamente por números y de tamaño fijo. Ideal para aplicaciones que requieren un método confiable para la creación de IDs numéricos en bases de datos, sistemas de seguimiento, o cualquier otro sistema que necesite identificadores únicos y consistentes.
+**codenumber** es una librería sencilla y eficiente diseñada para generar identificadores únicos compuestos únicamente por números y de tamaño fijo. Ideal para aplicaciones que requieren un método confiable para la creación de IDs numéricos en bases de datos, sistemas de seguimiento, o cualquier otro sistema que necesite identificadores únicos y consistentes.
 
 ## Características:
 
@@ -20,7 +22,7 @@ Puedes instalar codenumber a través de npm:
 npm i codenumber
 ```
 
-codenumber es la herramienta perfecta para desarrolladores que necesitan una solución confiable y rápida para la generación de identificadores numéricos únicos en proyectos JavaScript y TypeScript.
+**codenumber** es la herramienta perfecta para desarrolladores que necesitan una solución confiable y rápida para la generación de identificadores numéricos únicos en proyectos *JavaScript* y *TypeScript*.
 
 ---
 
