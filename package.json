@@ -1,12 +1,13 @@
 {
   "name": "codenumber",
-  "version": "1.1.6",
+  "version": "1.1.7",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/jimmymayta/codenumber"
   },
   "homepage": "codenumber.jimmymayta.com",
-  "description": "codenumber",
+  "description": "codenumber is a simple and efficient library designed to generate unique identifiers composed only of numbers and of fixed size",
   "main": "dist/code.js",
   "scripts": {
     "prepare": "npm run build",
@@ -21,7 +22,16 @@
     "code",
     "number",
     "codenumber",
-    "code generate"
+    "generate",
+    "code generate",
+    "generate code",
+    "key",
+    "key code",
+    "keycode",
+    "codekey",
+    "javascript",
+    "lib",
+    "tool"
   ],
   "author": "jimmymayta",
   "license": "ISC"

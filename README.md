@@ -2,27 +2,43 @@
 
 
 
-## Descripción:
-**codenumber** es una librería sencilla y eficiente diseñada para generar identificadores únicos compuestos únicamente por números y de tamaño fijo. Ideal para aplicaciones que requieren un método confiable para la creación de IDs numéricos en bases de datos, sistemas de seguimiento, o cualquier otro sistema que necesite identificadores únicos y consistentes.
+## Description:
+**codenumber** is a simple and efficient library designed to generate unique identifiers composed only of numbers and of fixed size. Ideal for applications that require a reliable method for creating numeric IDs in databases, tracking systems, or any other system that needs unique and consistent identifiers.
 
-## Características:
+## Features:
 
-- Generación de IDs únicos: Garantiza que cada ID generado es único.
-- Solo números: Todos los IDs son secuencias numéricas, evitando caracteres alfabéticos o especiales.
-- Tamaño fijo: Define la longitud de los IDs generados según tus necesidades.
-- Rápido y eficiente: Optimizado para generar grandes cantidades de IDs en poco tiempo.
-- Fácil de usar: Integra fácilmente en cualquier proyecto con una interfaz simple y directa.
+- Generation of unique IDs: Guarantees that each ID generated is unique.
+- Numbers only: All IDs are numeric sequences, avoiding alphabetic or special characters.
+- Fixed size: Define the length of the generated IDs according to your needs.
+- Fast and efficient: Optimized to generate large numbers of IDs in a short time.
+- Easy to use: Integrate easily into any project with a simple and straightforward interface.
 
 
-## Instalación:
+## Installation:
 
-Puedes instalar codenumber a través de npm:
+You can install codenumber through npm:
 
 ```
 npm i codenumber
 ```
 
-**codenumber** es la herramienta perfecta para desarrolladores que necesitan una solución confiable y rápida para la generación de identificadores numéricos únicos en proyectos *JavaScript* y *TypeScript*.
+## Formas de usar:
+
+### CommonJS
+
+```
+const code = require('codenumber')
+```
+
+### ES6 Modules or TypeScript
+
+```
+import code from 'codenumber'
+```
+
+### Example
+
+**codenumber** is the perfect tool for developers who need a reliable and fast solution for the generation of unique numeric identifiers in projects *JavaScript* and *TypeScript*.
 
 ---
 
