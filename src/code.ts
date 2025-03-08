@@ -1,13 +1,17 @@
-const num = (p: number, n: number): string => {
-  return '0'
-  // return String(n).padStart(p, "0")
+const num = (n: number, d: number): string => {
+  return ('0'.repeat(Math.abs(n - d.toString().length)) + d).slice(-n);
 };
-const random = ():string => {
+
+const randomnumber = (): string => {
+  const a = Math.floor(Math.random() * 9) + 1;
+  const b = Math.floor(Math.random() * 9) + 1;
+  return String(a > b ? Math.floor(Math.random() * (a - b + 1)) + b : Math.floor(Math.random() * (b - a + 1)) + a);
+}
+
+const random = (n: number): string => {
   let r = ''
-  for (let i = 0; i < 3; i++) {
-    const a = Math.floor(Math.random() * 9) + 1;
-    const b = Math.floor(Math.random() * 9) + 1;
-    r = r + String(a > b ? Math.floor(Math.random() * (a - b + 1)) + b : Math.floor(Math.random() * (b - a + 1)) + a);
+  for (let i = 0; i < n; i++) {
+    r += randomnumber();
   }
   return r
 };
@@ -22,44 +26,8 @@ const code = (): string => {
   const minutes = newdate.getMinutes();
   const seconds = newdate.getSeconds();
   const milliseconds = newdate.getMilliseconds();
-  return `${num(4, year)}${num(2, month)}${num(2, day)}${num(2, hours)}${num(2, minutes)}${num(2, seconds)}${num(4, milliseconds)}${num(4, datenow)}${random()}`;
+  return `${num(4, year)}${num(2, month)}${num(2, day)}${num(2, hours)}${num(2, minutes)}${num(2, seconds)}${num(4, milliseconds)}${num(13, datenow)}${random(3)}`;
 };
 
 export default code;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
