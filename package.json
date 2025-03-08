@@ -1,6 +1,6 @@
 {
   "name": "codenumber",
-  "version": "1.2.1",
+  "version": "1.2.8",
   "type": "module",
   "repository": {
     "type": "git",
@@ -9,7 +9,13 @@
   "homepage": "codenumber.jimmymayta.com",
   "description": "codenumber is a simple and efficient library designed to generate unique identifiers composed only of numbers and of fixed size",
   "main": "dist/code.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/code.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/code.js",
+      "import": "./dist/code.js"
+    }
+  },
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
