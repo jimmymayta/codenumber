@@ -22,23 +22,38 @@ You can install codenumber through npm:
 npm i codenumber
 ```
 
-## Formas de usar:
+## Examples
 
-### CommonJS
-
-```
-const code = require('codenumber')
-```
-
-### ES6 Modules or TypeScript
+### JavaScript
 
 ```
-import code from 'codenumber'
+const code = require('codenumber').default;
+console.log(code());
 ```
 
-### Example
+![Code JavaScript](https://res.cloudinary.com/jimmymayta/image/upload/v1741426023/Screenshot_2025-03-08_05-24-38_lrqtgx.png "Code JavaScript")
+
+
+
+### TypeScript
+
+```
+import code from 'codenumber';
+console.log(code());
+```
+
+![Code TypeScript](https://res.cloudinary.com/jimmymayta/image/upload/v1741426022/Screenshot_2025-03-08_05-26-12_lcyw6j.png "Code TypeScript")
+
+
+### Code Number
 
 **codenumber** is the perfect tool for developers who need a reliable and fast solution for the generation of unique numeric identifiers in projects *JavaScript* and *TypeScript*.
+
+---
+
+## Screenshots
+
+![Code Number](https://res.cloudinary.com/jimmymayta/image/upload/v1741427326/Screenshot_2025-03-08_05-48-33_jjlrrm.png "Code Number")
 
 ---
 
