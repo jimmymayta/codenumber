@@ -55,6 +55,8 @@ console.log(code());
 
 ![Code Number](https://res.cloudinary.com/jimmymayta/image/upload/v1741427326/Screenshot_2025-03-08_05-48-33_jjlrrm.png "Code Number")
 
+![Code Number](https://res.cloudinary.com/jimmymayta/image/upload/v1741523314/codenumber/wscavlqcqatildbyza01.png "Code Number")
+
 ---
 
 
