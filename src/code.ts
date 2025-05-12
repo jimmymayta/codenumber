@@ -24,7 +24,7 @@ const code = (): string => {
   const minutes = newdate.getMinutes();
   const seconds = newdate.getSeconds();
   const milliseconds = newdate.getMilliseconds();
-  return `${num(4, year)}-${num(2, month)}-${num(2, day)} ${num(2, hours)}:${num(2, minutes)}:${num(2, seconds)}.${num(4, milliseconds)} ${num(13, datenow)} ${number_random(3)}`;
+  return `${num(4, year)}${num(2, month)}${num(2, day)}${num(2, hours)}${num(2, minutes)}${num(2, seconds)}${num(4, milliseconds)}${num(13, datenow)}${number_random(3)}`;
 };
 
 export default code;
